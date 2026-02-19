@@ -1,5 +1,123 @@
-.calculator {
-  background-color: rgb(116, 116, 116);
-  width: 300px;
-  height: 400px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: 5%;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #097d4c;
+}
+a:visited {
+  color: #097d4c;
+}
+a:hover {
+  color: #097d4c;
+}
+a:active {
+  color: #097d4c;
+}
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.middletitle {
+  display: flex;
+  text-align: center;
+  font-size: 75px;
+  font-family: "Knewave", system-ui;
+  color: #097d4c;
+}
+.box1 {
+  background-color: #f1ead1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.imgdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 999;
+  margin-bottom: -15rem;
+}
+
+.downborders {
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: flex-end;
+  /* bottom: 0; */
+}
+.downborder {
+  height: 13%;
+  background-color: #097d4c;
+  background-image: repeating-conic-gradient(#f1ead1 0% 25%, #097d4c 0% 50%);
+  /* background-position: 0 0; */
+  background-size: 40px 40px;
+}
+.downborder2 {
+  height: 90%;
+  background-color: #097d4c;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 5%;
+  font-family: "Knewave", system-ui;
+}
+.menu {
+}
+.Logo {
+  background-color: #097d4c;
+  margin-left: 5%;
+  color: aliceblue;
+}
+.box2 {
+  background-color: #097d4c;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.boxwraper2 {
+  display: flex;
+}
+.subtitles {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: left;
+  padding-left: 5%;
+  color: #f1ead1;
+  font-size: 50px;
+  display: flex;
+}
+.imgright2 {
+  border-radius: 8px;
+}
+.box3 {
+  background-color: #f1ead1;
+  height: 100vh;
+}
+.box4 {
+  background-color: #004ead;
+  height: 100vh;
+}
+.box5 {
+  background-color: #f1ead1;
+  height: 100vh;
 }

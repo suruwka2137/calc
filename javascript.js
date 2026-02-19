@@ -1,4 +1,2 @@
-// wyświetlacz
-// dodawanie odejmowanie mnożenie dzielenie
-//clear button
-// liczby od 0 do 9
+// wszystkie czcionki w Hobo
+//ostatnie czcionki w Cooper BT
